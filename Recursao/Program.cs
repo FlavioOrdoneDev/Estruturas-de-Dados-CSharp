@@ -22,7 +22,7 @@ namespace Recursao
             // 1, 1, 2, 3, 5, 8, 13
             // 0, 1, 2, 3, 4, 5, 6
 
-            int fib = Fibonacci.SequenciaDeFibonacci(50);
+            int fib = Fibonacci.SequenciaDeFibonacci(4);
 
             Console.WriteLine(fib);
 
