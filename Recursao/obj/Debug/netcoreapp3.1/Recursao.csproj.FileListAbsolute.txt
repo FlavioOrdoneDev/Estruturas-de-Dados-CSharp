@@ -1,0 +1,12 @@
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\bin\Debug\netcoreapp3.1\Recursao.exe
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\bin\Debug\netcoreapp3.1\Recursao.deps.json
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\bin\Debug\netcoreapp3.1\Recursao.runtimeconfig.json
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\bin\Debug\netcoreapp3.1\Recursao.runtimeconfig.dev.json
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\bin\Debug\netcoreapp3.1\Recursao.dll
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\bin\Debug\netcoreapp3.1\Recursao.pdb
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\obj\Debug\netcoreapp3.1\Recursao.AssemblyInfoInputs.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\obj\Debug\netcoreapp3.1\Recursao.AssemblyInfo.cs
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\obj\Debug\netcoreapp3.1\Recursao.csproj.CoreCompileInputs.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\obj\Debug\netcoreapp3.1\Recursao.dll
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\obj\Debug\netcoreapp3.1\Recursao.pdb
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\obj\Debug\netcoreapp3.1\Recursao.genruntimeconfig.cache
