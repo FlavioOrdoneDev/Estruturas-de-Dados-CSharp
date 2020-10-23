@@ -1,0 +1,13 @@
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\bin\Debug\netcoreapp3.1\Filas.exe
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\bin\Debug\netcoreapp3.1\Filas.deps.json
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\bin\Debug\netcoreapp3.1\Filas.runtimeconfig.json
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\bin\Debug\netcoreapp3.1\Filas.runtimeconfig.dev.json
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\bin\Debug\netcoreapp3.1\Filas.dll
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\bin\Debug\netcoreapp3.1\Filas.pdb
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\obj\Debug\netcoreapp3.1\Filas.csprojAssemblyReference.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\obj\Debug\netcoreapp3.1\Filas.AssemblyInfoInputs.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\obj\Debug\netcoreapp3.1\Filas.AssemblyInfo.cs
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\obj\Debug\netcoreapp3.1\Filas.csproj.CoreCompileInputs.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\obj\Debug\netcoreapp3.1\Filas.dll
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\obj\Debug\netcoreapp3.1\Filas.pdb
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\obj\Debug\netcoreapp3.1\Filas.genruntimeconfig.cache
