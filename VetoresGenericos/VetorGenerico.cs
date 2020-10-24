@@ -10,15 +10,15 @@ namespace VetoresGenericos
     {
         public VetorGenerico(int capacidade)
         {
-            this.elementos = new string[capacidade];
+            this.elementos = new Object[capacidade];
             this.tamanho = 0;
         }
 
-        private string[] elementos;
+        private Object[] elementos;
 
         private int tamanho;
 
-        public string Busca(int posicao)
+        public Object Busca(int posicao)
         {
             if (posicao >= 0 && posicao < tamanho)
                 return this.elementos[posicao];
@@ -26,7 +26,7 @@ namespace VetoresGenericos
                 return "Posicao inválida";
         }        
 
-        public int BuscarElemento(string elemento)
+        public int BuscaElemento(Object elemento)
         {
             for (int i = 0; i < this.tamanho; i++)
             {
@@ -41,7 +41,7 @@ namespace VetoresGenericos
             return this.elementos.Contains(elemento);
         }
 
-        public bool Adiciona(string elemento)
+        public bool Adiciona(Object elemento)
         {
             this.AumentaCapacidade();
 
@@ -55,7 +55,7 @@ namespace VetoresGenericos
             return false;
         }
 
-        public bool Adiciona(int posicao, string elemento)
+        public bool Adiciona(int posicao, Object elemento)
         {
             this.AumentaCapacidade();
 
@@ -73,9 +73,9 @@ namespace VetoresGenericos
             return true;
         }
 
-        public string Remover(int posicao)
+        public Object Remove(int posicao)
         {
-            string deletado = this.elementos[posicao];
+            Object deletado = this.elementos[posicao];
 
             if (posicao < 0 && posicao > tamanho)
                 throw new Exception("Posição inválida");
@@ -92,12 +92,12 @@ namespace VetoresGenericos
             return deletado;
         }
 
-        public string RemovePorElemento(string elemento)
+        public Object RemovePorElemento(string elemento)
         {
-            int pos = this.BuscarElemento(elemento);
-            if (pos < 0)
+            int posicao = this.BuscaElemento(elemento);
+            if (posicao < 0)
                 return "Elemento não encontrado";
-            return this.Remover(pos);
+            return this.Remove(posicao);
         }
 
         public int QuantidadeElementos()
@@ -149,7 +149,7 @@ namespace VetoresGenericos
         {
             if (this.tamanho == this.elementos.Length)
             {
-                string[] elementosNovos = new string[this.elementos.Length * 2];
+                Object[] elementosNovos = new Object[this.elementos.Length * 2];
                 for (int i = 0; i < this.elementos.Length; i++)
                 {
                     elementosNovos[i] = elementos[i];
