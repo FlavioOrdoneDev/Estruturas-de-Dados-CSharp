@@ -43,6 +43,8 @@ namespace Vetores
 
         public bool Adiciona(string elemento)
         {
+            this.AumentaCapacidade();
+
             if (this.tamanho < this.elementos.Length)
             {
                 this.elementos[this.tamanho] = elemento;
@@ -55,7 +57,9 @@ namespace Vetores
 
         public bool Adiciona(int posicao, string elemento)
         {
-            if (!(posicao >= 0 && posicao <= tamanho))
+            this.AumentaCapacidade();
+
+            if (posicao < 0 && posicao > tamanho)
                 throw new Exception("Posição inválida");
             else
             {
@@ -67,6 +71,33 @@ namespace Vetores
                 this.tamanho++;
             }
             return true;
+        }
+
+        public string Remover(int posicao)
+        {
+            string deletado = this.elementos[posicao];
+
+            if (posicao < 0 && posicao > tamanho)
+                throw new Exception("Posição inválida");
+            else
+            {
+                for (int i = posicao; i < this.tamanho - 1; i++)
+                {
+                    this.elementos[i] = this.elementos[i + 1];                    
+                }
+
+                this.tamanho--;
+            }
+
+            return deletado;
+        }
+
+        public string RemovePorElemento(string elemento)
+        {
+            int pos = this.BuscarElemento(elemento);
+            if (pos < 0)
+                return "Elemento não encontrado";
+            return this.Remover(pos);
         }
 
         public int QuantidadeElementos()
@@ -94,17 +125,6 @@ namespace Vetores
             }
         }
 
-        //public override string ToString()
-        //{
-        //    string resultado = "";
-        //    foreach (var item in this.elementos)
-        //    {
-        //        resultado += string.Format("[{0}]", item);
-        //    }
-
-        //    return resultado; 
-        //}
-
         public override string ToString()
         {
             StringBuilder s = new StringBuilder();
@@ -123,6 +143,19 @@ namespace Vetores
 
             s.Append("]");
             return s.ToString();
+        }
+
+        private void AumentaCapacidade()
+        {
+            if (this.tamanho == this.elementos.Length)
+            {
+                string[] elementosNovos = new string[this.elementos.Length * 2];
+                for (int i = 0; i < this.elementos.Length; i++)
+                {
+                    elementosNovos[i] = elementos[i];
+                }
+                this.elementos = elementosNovos;
+            }
         }
     }
 }

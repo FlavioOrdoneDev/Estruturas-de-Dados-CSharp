@@ -7,7 +7,7 @@ namespace Vetores
         static void Main(string[] args)
         {
 
-            Vetor vetor = new Vetor(10);
+            Vetor vetor = new Vetor(2);
 
             
             vetor.Adiciona("B");
@@ -18,16 +18,16 @@ namespace Vetores
 
 
             Console.WriteLine(vetor);
-
             vetor.Adiciona(0, "A");
 
             Console.WriteLine(vetor);
-
             vetor.Adiciona(3, "D");
 
             Console.WriteLine(vetor);
-
             vetor.Adiciona(6, "X");
+
+            Console.WriteLine(vetor);
+            Console.WriteLine(vetor.RemovePorElemento("X"));
 
             Console.WriteLine(vetor);
 
