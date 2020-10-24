@@ -1,0 +1,13 @@
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\bin\Debug\netcoreapp3.1\VetoresDeObjetos.exe
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\bin\Debug\netcoreapp3.1\VetoresDeObjetos.deps.json
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\bin\Debug\netcoreapp3.1\VetoresDeObjetos.runtimeconfig.json
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\bin\Debug\netcoreapp3.1\VetoresDeObjetos.runtimeconfig.dev.json
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\bin\Debug\netcoreapp3.1\VetoresDeObjetos.dll
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\bin\Debug\netcoreapp3.1\VetoresDeObjetos.pdb
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\obj\Debug\netcoreapp3.1\VetoresDeObjetos.AssemblyInfoInputs.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\obj\Debug\netcoreapp3.1\VetoresDeObjetos.AssemblyInfo.cs
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\obj\Debug\netcoreapp3.1\VetoresDeObjetos.csproj.CoreCompileInputs.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\obj\Debug\netcoreapp3.1\VetoresDeObjetos.dll
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\obj\Debug\netcoreapp3.1\VetoresDeObjetos.pdb
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\obj\Debug\netcoreapp3.1\VetoresDeObjetos.genruntimeconfig.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresDeObjetos\obj\Debug\netcoreapp3.1\VetoresDeObjetos.csprojAssemblyReference.cache
