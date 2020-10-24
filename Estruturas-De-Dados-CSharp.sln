@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Vetores", "00-Vetores", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetores", "Vetores\Vetores.csproj", "{43BCB0DD-C779-43EB-9C48-76FAE20F857A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetoresGenericos", "VetoresGenericos\VetoresGenericos.csproj", "{D473604E-81DE-4CED-A910-D83A16D1733F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{43BCB0DD-C779-43EB-9C48-76FAE20F857A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43BCB0DD-C779-43EB-9C48-76FAE20F857A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43BCB0DD-C779-43EB-9C48-76FAE20F857A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D473604E-81DE-4CED-A910-D83A16D1733F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D473604E-81DE-4CED-A910-D83A16D1733F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D473604E-81DE-4CED-A910-D83A16D1733F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D473604E-81DE-4CED-A910-D83A16D1733F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{D7D473D2-DECD-4305-9A2E-47D9A33394DD} = {E2A18454-9AD7-42FE-9240-FD9CEBB296ED}
 		{50006C7C-86F4-44D5-9C53-1DD81543DB1C} = {8B927188-5ED3-4D17-85C5-37564C4BF6A9}
 		{43BCB0DD-C779-43EB-9C48-76FAE20F857A} = {55AF42B3-5CDE-4642-8435-FB7F3D7A845B}
+		{D473604E-81DE-4CED-A910-D83A16D1733F} = {55AF42B3-5CDE-4642-8435-FB7F3D7A845B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96A15C8B-31AA-48ED-BCFA-24BEEF955633}

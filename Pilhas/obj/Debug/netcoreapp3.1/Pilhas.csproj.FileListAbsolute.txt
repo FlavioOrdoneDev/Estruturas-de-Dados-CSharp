@@ -4,7 +4,6 @@ C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\bin\Debug\netcoreapp3.1\Pil
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\bin\Debug\netcoreapp3.1\Pilhas.runtimeconfig.dev.json
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\bin\Debug\netcoreapp3.1\Pilhas.dll
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\bin\Debug\netcoreapp3.1\Pilhas.pdb
-C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\obj\Debug\netcoreapp3.1\Pilhas.csprojAssemblyReference.cache
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\obj\Debug\netcoreapp3.1\Pilhas.AssemblyInfoInputs.cache
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\obj\Debug\netcoreapp3.1\Pilhas.AssemblyInfo.cs
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\obj\Debug\netcoreapp3.1\Pilhas.csproj.CoreCompileInputs.cache

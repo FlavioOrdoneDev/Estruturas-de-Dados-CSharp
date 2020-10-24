@@ -4,7 +4,6 @@ C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\bin\Debug\netcorea
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\bin\Debug\netcoreapp3.1\BalancoDeSinais.runtimeconfig.dev.json
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\bin\Debug\netcoreapp3.1\BalancoDeSinais.dll
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\bin\Debug\netcoreapp3.1\BalancoDeSinais.pdb
-C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\obj\Debug\netcoreapp3.1\BalancoDeSinais.csprojAssemblyReference.cache
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\obj\Debug\netcoreapp3.1\BalancoDeSinais.AssemblyInfoInputs.cache
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\obj\Debug\netcoreapp3.1\BalancoDeSinais.AssemblyInfo.cs
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\obj\Debug\netcoreapp3.1\BalancoDeSinais.csproj.CoreCompileInputs.cache
