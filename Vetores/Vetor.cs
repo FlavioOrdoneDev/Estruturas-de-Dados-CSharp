@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 
 namespace Vetores
@@ -23,9 +24,19 @@ namespace Vetores
                 return this.elementos[posicao];
             else
                 return "Posicao inválida";
+        }        
+
+        public int BuscarElemento(string elemento)
+        {
+            for (int i = 0; i < this.tamanho; i++)
+            {
+                if (this.elementos[i].Equals(elemento))
+                    return i;
+            }
+            return -1;
         }
 
-        public bool BuscarElemento(string elemento)
+        public bool BuscarElementoContains(string elemento)
         {
             return this.elementos.Contains(elemento);
         }
@@ -40,6 +51,22 @@ namespace Vetores
             }
 
             return false;
+        }
+
+        public bool Adiciona(int posicao, string elemento)
+        {
+            if (!(posicao >= 0 && posicao <= tamanho))
+                throw new Exception("Posição inválida");
+            else
+            {
+                for (int i = this.tamanho - 1; i >= posicao; i--)
+                {
+                    this.elementos[i + 1] = this.elementos[i];
+                }
+                this.elementos[posicao] = elemento;
+                this.tamanho++;
+            }
+            return true;
         }
 
         public int QuantidadeElementos()

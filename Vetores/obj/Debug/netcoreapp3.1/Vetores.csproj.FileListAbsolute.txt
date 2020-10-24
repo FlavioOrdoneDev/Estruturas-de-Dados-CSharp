@@ -10,3 +10,4 @@ C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Vetores\obj\Debug\netcoreapp3.1\Ve
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Vetores\obj\Debug\netcoreapp3.1\Vetores.dll
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Vetores\obj\Debug\netcoreapp3.1\Vetores.pdb
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Vetores\obj\Debug\netcoreapp3.1\Vetores.genruntimeconfig.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Vetores\obj\Debug\netcoreapp3.1\Vetores.csprojAssemblyReference.cache

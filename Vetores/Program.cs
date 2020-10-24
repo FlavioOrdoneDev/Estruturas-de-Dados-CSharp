@@ -9,16 +9,27 @@ namespace Vetores
 
             Vetor vetor = new Vetor(10);
 
-            vetor.Adiciona("elemento 1");
-            vetor.Adiciona("elemento 2");
-            vetor.Adiciona("elemento 3");
-            vetor.Adiciona("elemento 4");
-
-            Console.WriteLine(vetor.Busca(3));
             
-            Console.WriteLine(vetor.BuscarElemento("elemento 1"));
+            vetor.Adiciona("B");
+            vetor.Adiciona("C");
+            vetor.Adiciona("E");
+            vetor.Adiciona("F");
+            vetor.Adiciona("G");
 
-            vetor.MostraValores();
+
+            Console.WriteLine(vetor);
+
+            vetor.Adiciona(0, "A");
+
+            Console.WriteLine(vetor);
+
+            vetor.Adiciona(3, "D");
+
+            Console.WriteLine(vetor);
+
+            vetor.Adiciona(6, "X");
+
+            Console.WriteLine(vetor);
 
             Console.ReadKey();
 
