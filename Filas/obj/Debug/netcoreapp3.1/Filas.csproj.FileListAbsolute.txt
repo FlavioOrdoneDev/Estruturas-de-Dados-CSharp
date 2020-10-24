@@ -10,3 +10,4 @@ C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\obj\Debug\netcoreapp3.1\Fila
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\obj\Debug\netcoreapp3.1\Filas.dll
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\obj\Debug\netcoreapp3.1\Filas.pdb
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\obj\Debug\netcoreapp3.1\Filas.genruntimeconfig.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Filas\obj\Debug\netcoreapp3.1\Filas.csprojAssemblyReference.cache

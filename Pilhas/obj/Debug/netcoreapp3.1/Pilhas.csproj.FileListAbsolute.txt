@@ -10,3 +10,4 @@ C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\obj\Debug\netcoreapp3.1\Pil
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\obj\Debug\netcoreapp3.1\Pilhas.dll
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\obj\Debug\netcoreapp3.1\Pilhas.pdb
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\obj\Debug\netcoreapp3.1\Pilhas.genruntimeconfig.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Pilhas\obj\Debug\netcoreapp3.1\Pilhas.csprojAssemblyReference.cache

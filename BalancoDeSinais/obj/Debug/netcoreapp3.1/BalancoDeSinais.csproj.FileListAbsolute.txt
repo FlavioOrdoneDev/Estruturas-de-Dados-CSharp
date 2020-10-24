@@ -10,3 +10,4 @@ C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\obj\Debug\netcorea
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\obj\Debug\netcoreapp3.1\BalancoDeSinais.dll
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\obj\Debug\netcoreapp3.1\BalancoDeSinais.pdb
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\obj\Debug\netcoreapp3.1\BalancoDeSinais.genruntimeconfig.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\BalancoDeSinais\obj\Debug\netcoreapp3.1\BalancoDeSinais.csprojAssemblyReference.cache

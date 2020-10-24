@@ -6,27 +6,27 @@ using System.Text;
 
 namespace VetoresGenericos
 {
-    public class VetorGenerico
+    public class VetorGenerico<T>
     {
-        public VetorGenerico(int capacidade)
+        public VetorGenerico(int capacidade )
         {
-            this.elementos = new Object[capacidade];
+            this.elementos = (T[]) new T[capacidade];
             this.tamanho = 0;
         }
 
-        private Object[] elementos;
+        private T[] elementos;
 
         private int tamanho;
 
-        public Object Busca(int posicao)
+        public string Busca(int posicao)
         {
             if (posicao >= 0 && posicao < tamanho)
-                return this.elementos[posicao];
+                return this.elementos[posicao].ToString();
             else
                 return "Posicao inválida";
         }        
 
-        public int BuscaElemento(Object elemento)
+        public int BuscaElemento(T elemento)
         {
             for (int i = 0; i < this.tamanho; i++)
             {
@@ -36,12 +36,12 @@ namespace VetoresGenericos
             return -1;
         }
 
-        public bool BuscarElementoContains(string elemento)
+        public bool BuscarElementoContains(T elemento)
         {
             return this.elementos.Contains(elemento);
         }
 
-        public bool Adiciona(Object elemento)
+        public bool Adiciona(T elemento)
         {
             this.AumentaCapacidade();
 
@@ -55,7 +55,7 @@ namespace VetoresGenericos
             return false;
         }
 
-        public bool Adiciona(int posicao, Object elemento)
+        public bool Adiciona(int posicao, T elemento)
         {
             this.AumentaCapacidade();
 
@@ -92,12 +92,12 @@ namespace VetoresGenericos
             return deletado;
         }
 
-        public Object RemovePorElemento(string elemento)
+        public string RemovePorElemento(T elemento)
         {
             int posicao = this.BuscaElemento(elemento);
             if (posicao < 0)
                 return "Elemento não encontrado";
-            return this.Remove(posicao);
+            return this.Remove(posicao).ToString();
         }
 
         public int QuantidadeElementos()
@@ -149,7 +149,7 @@ namespace VetoresGenericos
         {
             if (this.tamanho == this.elementos.Length)
             {
-                Object[] elementosNovos = new Object[this.elementos.Length * 2];
+                T[] elementosNovos = new T[this.elementos.Length * 2];
                 for (int i = 0; i < this.elementos.Length; i++)
                 {
                     elementosNovos[i] = elementos[i];
