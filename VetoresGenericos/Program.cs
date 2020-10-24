@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace VetoresGenericos
 {
@@ -16,12 +18,33 @@ namespace VetoresGenericos
 
             vetor.Adiciona(contato1);
             vetor.Adiciona(contato2);
-            vetor.Adiciona(contato3);            
+            vetor.Adiciona(contato3);
 
-            Console.WriteLine("Tamanho = " + vetor.Tamanho());
-            Console.WriteLine(vetor.Busca(0));
-            Console.WriteLine(vetor.BuscaElemento(contato4));
-            Console.WriteLine(vetor);
+            Console.WriteLine(vetor.Busca(1));
+
+            //Console.WriteLine("Tamanho = " + vetor.Tamanho());
+            //Console.WriteLine(vetor.Busca(0));
+            //Console.WriteLine(vetor.BuscaElemento(contato4));
+            //Console.WriteLine(vetor);
+
+            List<Contato> list = new List<Contato>() ;
+
+            list.Add(contato1);
+            list.Add(contato2);
+            list.Add(contato3);
+
+            Console.WriteLine(list.Contains(contato1));
+            Console.WriteLine(list.Contains(contato4));
+
+            Console.WriteLine(list.IndexOf(contato1));
+            Console.WriteLine(list.GetRange(0, 1));
+
+            Console.WriteLine(list.Count);
+            list.RemoveAt(2);
+            Console.WriteLine(list.Count);
+            Console.WriteLine(list.Capacity);
+
+            Console.WriteLine(list.LastIndexOf(contato2));
 
             Console.ReadKey();
         }

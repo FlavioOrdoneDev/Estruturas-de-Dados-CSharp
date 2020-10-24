@@ -18,12 +18,12 @@ namespace VetoresGenericos
 
         private int tamanho;
 
-        public string Busca(int posicao)
+        public T Busca(int posicao)
         {
             if (posicao >= 0 && posicao < tamanho)
-                return this.elementos[posicao].ToString();
+                return this.elementos[posicao];
             else
-                return "Posicao inválida";
+                throw new Exception("Elemento não encontrado.");
         }        
 
         public int BuscaElemento(T elemento)
