@@ -9,25 +9,43 @@ namespace Exercicios_01
         
         [TestMethod]
         public void CouldBeReverseArray()
-        {
-            int[] arrayReverse = {10,9,8,7,6,5,4,3,2,1};
+        {            
             int[] array = {1,2,3,4,5,6,7,8,9,10};
 
             var result = Reverse_array.ReverseArray(array);
 
-            Assert.AreEqual(result, result);
+            string numbers = "10, 9, 8, 7, 6, 5, 4, 3, 2, 1";
+            string sResult = String.Join(", ", result);
+
+            Assert.AreEqual(numbers, sResult);
         }
                 
         [TestMethod]
-        public void CouldBeRotateArrayGivenPivot()
+        public void CouldBeRotateArrayGivenPivotTest1()
         {
             int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
             var result = Rotate_Array_Given_Pivot.Rotate(array, 3);
+
+            string numbers1 = "4, 5, 6, 7, 8, 9, 10, 1, 2, 3";
+
+            string sResult = String.Join(", ", result);
+
+            Assert.AreEqual(numbers1, sResult);
+        }
+
+        [TestMethod]
+        public void CouldBeRotateArrayGivenPivotTest2()
+        {
+            int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
             var result2 = Rotate_Array_Given_Pivot.Rotate(array, 6);
 
-            Assert.AreEqual("4 5 6 7 8 9 10 1 2 3 ", result);
-            Assert.AreEqual("10 1 2 3 4 5 6 7 8 9 ", result2);
+            string numbers2 = "7, 8, 9, 10, 1, 2, 3, 4, 5, 6";
+
+            string sResult2 = String.Join(", ", result2);
+
+            Assert.AreEqual(numbers2, sResult2);
         }
 
         [TestMethod]

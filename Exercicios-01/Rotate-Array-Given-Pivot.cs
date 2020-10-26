@@ -6,26 +6,20 @@ namespace Exercicios_01
 {
     public static class Rotate_Array_Given_Pivot
     {
-        public static string Rotate(int[] array, int pivot )
+        public static int[] Rotate(int[] x, int pivot )
         {
-            string result = "";
-            pivot = pivot % array.Length;
+            pivot = pivot % x.Length;
 
             // Rotate first half
-            array = RotateSub(array, 0, pivot - 1);
+            x = RotateSub(x, 0, pivot - 1);
 
             // Rotate second half
-            array = RotateSub(array, pivot, array.Length - 1);
+            x = RotateSub(x, pivot, x.Length - 1);
 
             // Rotate all
-            array = RotateSub(array, 0, array.Length - 1);
+            x = RotateSub(x, 0, x.Length - 1);
 
-            for (int i = 0; i < array.Length; i++)
-            {
-                result += array[i] + " ";
-            }
-
-            return result;
+            return x;            
         }
 
         public static int[] RotateSub(int[] array, int start, int end)
