@@ -4,10 +4,10 @@ C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresGenericos\bin\Debug\netcore
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresGenericos\bin\Debug\netcoreapp3.1\VetoresGenericos.runtimeconfig.dev.json
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresGenericos\bin\Debug\netcoreapp3.1\VetoresGenericos.dll
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresGenericos\bin\Debug\netcoreapp3.1\VetoresGenericos.pdb
-C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresGenericos\obj\Debug\netcoreapp3.1\VetoresGenericos.csprojAssemblyReference.cache
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresGenericos\obj\Debug\netcoreapp3.1\VetoresGenericos.AssemblyInfoInputs.cache
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresGenericos\obj\Debug\netcoreapp3.1\VetoresGenericos.AssemblyInfo.cs
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresGenericos\obj\Debug\netcoreapp3.1\VetoresGenericos.csproj.CoreCompileInputs.cache
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresGenericos\obj\Debug\netcoreapp3.1\VetoresGenericos.dll
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresGenericos\obj\Debug\netcoreapp3.1\VetoresGenericos.pdb
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresGenericos\obj\Debug\netcoreapp3.1\VetoresGenericos.genruntimeconfig.cache
+C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\VetoresGenericos\obj\Debug\netcoreapp3.1\VetoresGenericos.csprojAssemblyReference.cache

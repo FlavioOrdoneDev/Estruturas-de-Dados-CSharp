@@ -10,4 +10,3 @@ C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\obj\Debug\netcoreapp3.1\R
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\obj\Debug\netcoreapp3.1\Recursao.dll
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\obj\Debug\netcoreapp3.1\Recursao.pdb
 C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\obj\Debug\netcoreapp3.1\Recursao.genruntimeconfig.cache
-C:\Projetos\Cursos\Estruturas-De-Dados-CSharp\Recursao\obj\Debug\netcoreapp3.1\Recursao.csprojAssemblyReference.cache
